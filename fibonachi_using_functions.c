@@ -2,11 +2,10 @@
 
 int a = 0;
 int b = 1;
-
 int fibonachi(int n){
     
     int sum = a+b;
-    printf("%d\n",b);
+    printf("%d\n",a);
 
     a = b;
     b = sum;
